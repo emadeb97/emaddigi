@@ -1,0 +1,121 @@
+div.super-market{
+    width: 80%;
+    height: 110px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+}
+div.super-market>a{
+    width:45% ;
+    height: inherit;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+div.super-market>a>div.fresh{
+    width:45% ;
+    height: inherit;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+div.super-market>a>div.fresh>div.fresh-item{
+    display: inline-block;
+    margin: 10px 20px 0  0;
+    vertical-align: middle;
+}
+div.super-market>a>div.fresh>div.fresh-item>span{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    background-color: #39AE00;
+    border-radius: 30px;
+    font-family: yekan;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 30px;
+}
+div.super-market>div.sup{
+    width: 50%; 
+    height: inherit;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-right: 50px;
+}
+div.super-market>div.sup>a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+div.super-market>div.sup>a>div.sup-item{
+    display: inline-block;
+    position: relative;
+}
+div.super-market>div.sup>a>div.sup-item>img{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    padding: 5px;
+}
+div.super-market>div.sup>a>div.sup-item>h4{
+    width: 30px;
+    height: 15px;
+    font-family: yekan;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    background-color: crimson;
+    color: whitesmoke;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+div.super-market>div.sup>a>div.more{
+    width: 130px;
+    height: 50px;
+    font-family: yekan;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: whitesmoke;
+    color: #39AE00;
+    border-radius: 30px;
+    line-height: 50px;
+    text-align: center;
+}
+div.super-market>div.sup>a>div.more>span>i{
+    margin-right: 5px;
+}
+div.fouritem{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    width: 85%;
+    height:240px;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+div.fouritem>a{
+    display: inline-block;
+padding-right: 20px;
+box-sizing: border-box;
+
+}
+div.fouritem>a>img{
+    display: inline-block;
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+}

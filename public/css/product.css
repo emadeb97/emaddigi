@@ -1,0 +1,393 @@
+div.product{
+    width: 85%;
+    height: 420px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+div.product>div.subproduct{
+    width: 24%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: top;
+    border-right: 1px solid lightgrey;
+}
+div.product>div.subproduct:nth-of-type(1){
+    border: unset;
+}
+
+div.product>div.subproduct>h3{
+text-align: right;
+padding-right: 15px;
+box-sizing: border-box;
+font-size: 16px;
+font-family: yekan;
+color: #2b2b2b;
+margin-top: 10px;
+}
+div.product>div.subproduct>h4{
+text-align: right;
+padding-right: 15px;
+box-sizing: border-box;
+font-size: 11px;
+font-family: yekan;
+color: #8393A2;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+div.product>div.subproduct>a{
+    width:150px;
+    height:150px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+div.product>div.subproduct>a:nth-of-type(1),div.product>div.subproduct>a:nth-of-type(2){
+    border-bottom: 1px solid lightgrey;
+}
+div.product>div.subproduct>a:nth-of-type(1),div.product>div.subproduct>a:nth-of-type(3){
+    border-left: 1px solid lightgrey;
+}
+
+div.product>div.subproduct>a>img{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+div.product>div.subproduct>a.more{
+    width: inherit;
+    height: 30px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+div.product>div.subproduct>a.more>h5{
+    text-align: center;
+    font-size: 12px;
+    font-family: yekan;
+    color: #19bfd3;
+    line-height: 25px;
+}
+div.product>div.subproduct>a.more>h5>i{
+    font-size: 12px;
+    color: #19bfd3;
+    padding-right: 10px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+div.purple{
+    width: 85%;
+    height: 385px;
+    background-color: #941B80;
+    margin: 10px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+div.purple>div.subpurple{
+    width: 33%;
+    height: 90%;
+    display: inline-block;
+    background-color: #ffff;
+    margin-top: 15px;
+    position: relative;
+    vertical-align: middle;
+    left: 10px;
+}
+div.purple>div.subpurple:nth-of-type(2){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.purple>div.subpurple:nth-of-type(3){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.purple>div.subpurple:nth-of-type(1){
+    background-color: unset;
+    background-image: url(../images/product/back-removebg-preview.png);
+    object-fit: contain;
+    background-size: contain;
+    top: 60px;
+    transform: scale(0.9);
+}
+
+div.purple>div.subpurple>svg{
+    position: absolute;
+    fill: #ffff;
+    right: -210px;
+    top: -20px;
+    transform: scale(1.5);
+    overflow-x: hidden;
+}
+div.purple>div.subpurple>h2{
+    display: inline-block;
+    position: absolute;
+    color: #ffff;
+    font-size: 16px;
+    font-family: yekan;
+    font-weight: normal;
+    right: 30px;
+    top: -15px;
+}
+div.purple>div.subpurple>a{
+    position: absolute;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #ffff;
+    border-radius: 10px;
+    top: 20px;
+    right: 30px;
+    text-align: center;
+    vertical-align: top;
+}
+div.purple>div.subpurple>a>span{
+    color: #ffff;
+    line-height: 40px;
+    font-family: yekan;
+    font-size: 15px;
+    position: absolute;
+    right: 20px;
+}
+div.purple>div.subpurple>a>i{
+    line-height: 40px;
+    font-size: 20px;
+    color: #ffff;
+    position: absolute;
+    left: 20px;
+}
+div.purple>div.subpurple>div{
+    height: 30px;
+    width: 450px;
+    position: relative;
+}
+div.purple>div.subpurple>div>h4>svg{
+    display: inline;
+    position: absolute;
+    fill: #941B80;
+    left: 415px;
+}
+div.purple>div.subpurple>div>h4{
+    display: inline-block;
+    color: #2b2b2b;
+    font-family: yekan;
+    padding: 15px 40px 10px 0;
+    box-sizing: border-box;
+}
+div.purple>div.subpurple>div>a{
+    text-decoration: none;
+    color: #941B80;
+    font-family: yekan;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    top: 5px;
+    left: 40px;
+    overflow-x: hidden;
+}
+div.purple>div.subpurple>div>a>i{
+    padding-right: 10px;
+    line-height: 40px;
+}
+div.purple>div.subpurple>div.imgpurple{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin: 10px auto;
+    margin-right: 10px;
+    overflow-x: hidden;
+}
+div.purple>div.subpurple>div.imgpurple>div{
+    width: 130px;
+    height: 150px;
+    display: inline-block;
+}
+div.purple>div.subpurple>div.imgpurple>div>a{
+    width: inherit;
+    height: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+div.purple>div.subpurple>div.imgpurple>div>a>img{
+    width: 120px;
+    height: 120px;
+}
+div.purple>div.subpurple>div.imgpurple>div>a>span{
+    font-size: 13px;
+    font-family: yekan;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: -20px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+div.digiclub{
+    width: 85%;
+    height: 85px;
+    background-image: linear-gradient(to left,#007295 , #35a6c8);
+    margin: 5px auto;
+    border-radius: 10px;
+}
+div.digiclub>div.digilog{
+    width: 39%;
+    height: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.digiclub>div.digilog>a{
+    display: inline-block;
+    width: 100%;
+    height: inherit;
+    position: relative;
+}
+div.digiclub>div.digilog>a>img{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transform: scale(0.8);
+}
+div.digiclub>div.digiitem{
+    width: 60%;
+    height: 90%;
+    display: inline-block;
+}
+div.digiclub>div.digiitem>a{
+    width: 32.5%;
+    height: 90%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #FFFFFF;
+    position: relative;
+    text-decoration: none;
+}
+div.digiclub>div.digiitem>a:nth-of-type(1){
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+div.digiclub>div.digiitem>a:nth-of-type(3){
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.digiclub>div.digiitem>a>h2{
+    display: inline-block;
+    width: 33%;
+    height: inherit;
+    font-size: 12px;
+    font-family: yekan;
+    line-height: 70px;
+    padding-right: 23px;
+    color: #2b2b2b;
+    vertical-align: middle;
+    position: relative;
+}
+div.digiclub>div.digiitem>a>h2>svg{
+    position:absolute;
+    left: 30px;
+    top: 11px;
+    transform:scale(0.8) ;
+    display: inline-block;
+    fill: #19bfd3;
+}
+div.digiclub>div.digiitem>a>div{
+    display: inline-block;
+    width: 65%;
+    height: inherit;
+    vertical-align: middle;
+}
+div.digiclub>div.digiitem>a>div>img{
+    margin-top: 5px;
+width: 200px;
+height: 60px;
+object-fit: contain;
+}
+div.advertise{
+    width: 90%;
+    height: 165px;
+    border-radius: 20px;
+    margin: 25px auto;
+    text-align: center;
+}
+div.advertise>a{
+    text-decoration: none;
+    width: 90%;
+    height: 165px;
+    border-radius: 20px;
+    margin: 25px auto;
+    text-align: center;
+}
+div.advertise>a>img{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 20px;
+}
+div.read-more{
+    width: 90%;
+    height: 360px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+div.read-more>div.read-1{
+    width: 100%;
+    height: 50px;
+    vertical-align: middle;
+}
+div.read-more>div.read-1>h2{
+    width: 80%;
+    height: inherit;
+    display: inline-block;
+    font-family: yekan;
+    line-height: 50px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+div.read-more>div.read-1>a{
+    text-decoration: none;
+    color:#19bfd3 ;
+    font-family: yekan;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 14px;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+div.read-more>div.read-1>a>i{
+    line-height: 50px;
+    padding-right: 15px;
+}
+div.read-more>div.read-img{
+    width: 100%;
+    height: 310px;
+    text-align: center;
+}
+div.read-more>div.read-img>div.read-detail{
+    width: 24%;
+    height: 95%;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    margin: 5px;
+}
+div.read-more>div.read-img>div.read-detail>a{
+    width: 100%;
+    height: inherit;
+    text-decoration: none;
+}
+div.read-more>div.read-img>div.read-detail>a>img{
+    width: 325px;
+    height: 230px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 15px;
+}
+div.read-more>div.read-img>div.read-detail>a>h3{
+    color: #2b2b2b;
+    font-family: yekan;
+    font-size: 12px;
+    vertical-align: right;
+}

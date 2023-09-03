@@ -1,0 +1,112 @@
+div.wonderful{
+width: 100%;
+padding: 20px;
+box-sizing: border-box;
+}
+div.wonderful>div.wonder-items{
+    width: 80%;
+    height: 300px;
+    padding: 20px 20px 20px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: crimson;
+    margin: 0px auto;
+}
+div.wonderful>div.wonder-items div.imagewow{
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+div.wonderful>div.wonder-items div.imagewow>a>h3{
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: yekan;
+}
+div.wonderful>div.wonder-items div.imagewow>a>h3>i{
+    padding-right: 10px;
+    vertical-align: middle;
+}
+div.wonderful>div.wonder-items div.imagewow>a{
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+div.wonderful>div.wonder-items div.imagewow>img{
+    width: 70%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+div.wonderful>div.wonder-items div.price-wow{
+    width: 100%;
+    height: 30px;
+}
+div.wonderful>div.wonder-items div.price-wow>div.right-wow , div.wonderful>div.wonder-items div.price-wow>div.left-wow{
+    display: inline-block;
+}
+div.wonderful>div.wonder-items div.price-wow>div.left-wow{
+    font-size: 14px;
+    font-family: yekan;
+    font-weight: bold;
+    width: 50%;
+    height: inherit;
+    text-align: left;
+    color: #2b2b2b;
+}
+div.wonderful>div.wonder-items div.price-wow>div.right-wow{
+    font-size: 12px;
+    height: inherit;
+    width: 40%;
+    font-family: yekan;
+    font-weight: bold ;
+    text-align: right;
+    color: #2b2b2b;
+}
+div.wonderful>div.wonder-items div.price-wow>div.right-wow>span{
+    height: inherit;
+    padding: 5px;
+    font-family: yekan;
+    box-sizing: border-box;
+    background-color: crimson;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+div.wonderful>div.wonder-items div.deletepan{
+    width: 100%;
+    text-align: left;
+    padding-left: 35px;
+    padding-top: 10px;
+    font-size: 12px;
+    font-family: yekan;
+text-decoration: line-through;
+color: grey;
+}
+div.swiper-slide:nth-of-type(1){
+background-color: transparent;
+}
+div.wonderful>div.wonder-items div.amazing{
+    width: 40%;
+    height: 70px;
+    position: relative;
+    bottom: 130px;
+    right: 55px;
+}
+div.swiper-slide:nth-of-type(2){
+    border-radius: 0 10px 10px 0;
+}
+.last-slide{
+    position: absolute;
+    right: 70px;
+    top: 80px;
+font-family: yekan;
+font-size: 16px;
+}
+div.last-slide>i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #2FCBE5;
+}
+div.swiper-slide>a{
+    text-decoration: none;
+    color: #2b2b2b;
+}

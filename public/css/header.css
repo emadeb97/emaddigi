@@ -1,0 +1,121 @@
+header {
+  width: 100%;
+  height: 170px;
+  position: sticky;
+  top: 0;
+  background-color: #ffff;
+  z-index: 2;
+}
+header > div.headertop {
+  width: inherit;
+  height: 60px;
+}
+header > div.headertop > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+header > div.headerbottom {
+  width: 100%;
+  height: 110px;
+  box-shadow: 0 1px 2px gray;
+}
+header > div.headerbottom > div.forms {
+  width: inherit;
+  height: 70px;
+}
+header > div.headerbottom > div.forms > div.logo {
+  width: 10%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+header > div.headerbottom > div.forms > div.search {
+  width: 70%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: middle;
+  position: relative;
+}
+header > div.headerbottom > div.forms > div.search > input[type="text"] {
+    width: 50%;
+    height: 45px;
+    background-color: #F1F2F4;
+    border:unset;
+    margin-top: 12px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: yekan;
+}
+header > div.headerbottom > div.forms > div.search > input[type="text"]:focus{
+    outline: unset;
+}
+header > div.headerbottom > div.forms > div.search > input[type="text"]::placeholder{
+    font-size: 12px;
+}
+header > div.headerbottom > div.forms > div.login {
+  width: 15%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -4px;
+  vertical-align: middle;
+}
+header > div.headerbottom > div.forms > div.logo > svg {
+  width: 100%;
+  margin: 20px auto;
+}
+header > div.headerbottom > div.forms > div.login>a{
+  display: block;
+  width: 150px;
+  height: 45px;
+  background-color: #ffffff;
+  margin: 15px auto;
+  text-align: center;
+  line-height: 45px;
+  text-decoration: none;
+  font-family: yekan;
+  font-size: 12px;
+  font-weight: 600;
+  color: #2b2b2b;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+header > div.headerbottom > div.forms > div.login>a>i{
+  font-size: 16px;
+  vertical-align: middle;
+  transform: rotate(180deg);
+  margin: 0 5px;
+}
+header > div.headerbottom > div.forms > div.search >i{
+  position: absolute;
+  left: 52%;
+  top: 46%;
+  transform: translate(-50% , -50%);
+}
+header >div.headerbottom > div.forms > div.buy{
+  width: 5%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: middle;
+}
+header >div.headerbottom > div.forms > div.buy > a >i{
+  margin-top: 30px;
+  padding-right: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row nowrap;
+  transform: rotateY(180deg);
+  justify-content: center;
+}
+header >div.headerbottom > div.forms >span{
+  margin-right: -20px;
+  font-size: 20px;
+  vertical-align: middle;
+  color: lightgray;
+}
+header >div.headerbottom > div.forms > div.buy > a{
+  text-decoration: none;
+}
